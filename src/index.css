@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black-gradient: linear-gradient(144.39deg,
+      #616161 -278.56%,
+      #676767 -78.47%,
+      #0f0115 91.61%);
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.text-gradient {
+  background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,
+      #ebdefa 0.89%,
+      #e1bef5 17.23%,
+      #c29df0 42.04%,
+      #b87deb 55.12%,
+      #935ce6 71.54%,
+      #7b33cf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bg-blue-gradient {
+  background: linear-gradient(157.81deg,
+      #ebdefa -43.27%,
+      #e1bef5 -21.24%,
+      #c29df0 12.19%,
+      #b87deb 29.82%,
+      #935ce6 51.94%,
+      #7b33cf 90.29%);
+}
+
+.bg-black-gradient {
+  background: linear-gradient(144.39deg,
+      #ffffff -278.56%,
+      O#6d6d6d -78.47%,
+      #11101d 91.61%);
+}
+
+.bg-black-gradient-2 {
+  background: linear-gradient(-168.39deg,
+      #ffffff -278.56%,
+      #6d6d6d -78.47%,
+      #11101d 91.61%);
+}
